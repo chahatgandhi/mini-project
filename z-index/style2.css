@@ -1,0 +1,69 @@
+.container {
+    width: 150px;
+    height: 150px;
+    border: solid 3px;
+    margin: 10px;
+    border-radius: 10px;
+    position: relative;
+  }
+  
+  #container-1 {
+    z-index: 0;
+  }
+  
+  #container-2 {
+    position: absolute;
+    z-index: 1;
+    top: 30px;
+  }
+  
+  .child {
+    position: absolute;
+    width: 75px;
+    height: 75px;
+    border-radius: 10px;
+    color: white;
+    padding: 5px;
+    text-align: right;
+    opacity: 1;
+  }
+  
+  #first {
+    z-index: 100;
+    background-color: #FF5C35;
+    top: 10px;
+    left: 15px;
+  }
+  
+  #second {
+    z-index: 0;
+    background-color: #192733;
+    top: 30px;
+    left: 35px;
+  }
+  
+  #third {
+    z-index: 1;
+    background-color: #4FB06D;
+    top: 10px;
+    left: 5px;
+  }
+  
+  #fourth {
+    z-index: 0;
+    background-color: #ED2D40;
+    top: 30px;
+    left: 25px;
+  }
+
+  @keyframes redGlow {
+    100% {
+        box-shadow: 0 0 8px #ff0000, 0 0 12px #ff0000;
+    }
+}
+
+@keyframes yellowGlow {
+     100% {
+        box-shadow: 0 0 8px #e9e912, 0 0 12px #ebeb0a;
+    }
+}

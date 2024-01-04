@@ -1,0 +1,20 @@
+.parent{
+    border: .1rem solid black;
+    height: 30rem;
+    width: 30rem;
+}
+
+.child{
+    height: 5rem;
+    width: 5rem;
+    background-color: red;
+    margin: 0 auto;
+}
+
+
+/* display:flex;
+justify-content: center;
+align-items: center; */
+
+/* display: grid;
+place-items: center; */
